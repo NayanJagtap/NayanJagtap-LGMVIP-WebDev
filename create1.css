@@ -1,0 +1,1048 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+html{
+
+  scroll-behavior: smooth;
+}
+body{
+  width: auto;
+  height: auto;
+  }
+.background1{
+    background-image:url("https://www.creativefabrica.com/wp-content/uploads/2020/03/08/Gradient-Smooth-Background-Graphics-3360906-1-1-580x387.jpg");
+    margin-bottom: 0px;
+    height:900px;
+    background-size: cover;
+    width:100%;
+}
+.navbar{
+      position: relative;
+      text-align: center;
+}
+#home{
+  padding:20px;
+  text-decoration: none;
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+#home:hover
+{
+  background-color: yellow;
+}
+#products{
+  padding:20px;
+  text-decoration: none;
+  color: white;
+}
+#products:hover
+{
+  background-color: yellow;
+}
+#pricing{
+  padding:20px;
+  text-decoration: none;
+  color: white;
+}
+#pricing:hover
+{
+  background-color: yellow;
+}
+#team{
+  padding:20px;
+  text-decoration: none;
+  color: white;
+}
+#team:hover
+{
+  background-color: yellow;
+}
+#blog{
+  padding:20px;
+  text-decoration: none;
+  color: white;
+}
+#blog:hover
+{
+  background-color: yellow;
+}
+#contact{
+  padding:20px;
+  text-decoration: none;
+  color: white;
+}
+#contact:hover
+{
+  background-color: yellow;
+}
+#zippy{
+  position: relative;
+  top:20px;
+  right:60px;
+  left:70px;
+  font-family: fantasy;
+  font-size: 40px;
+  text-decoration: none;
+  color: white;
+}
+#headings{
+  color:white;
+  padding-top: 100px;
+  font-size: 90px;
+  text-align: center;
+  font-family: 'Luckiest Guy', cursive;
+font-family: 'Pacifico', cursive;
+
+
+  
+}
+#h2{
+  color:black;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+
+}
+
+#nav2{
+  display: flex;
+  justify-content: center;
+
+}
+
+.learnmore1{
+height:60px;
+width:200px;
+margin:2 35px;
+border-radius: 50px;
+border: none ;
+outline:none;
+background: #111;
+color:#fff;
+font-size: 20px;
+letter-spacing: 2px;
+text-transform: uppercase;
+cursor: pointer;
+}
+.learnmore1:hover{
+  background: linear-gradient(90deg,#03a9f4,#f441a5,#f441a5,#ffeb3b,#03a9f4);
+}
+.learnmore2
+{
+  height:60px;
+  width:200px;
+  margin:2 35px;
+  border-radius: 50px;
+  border: none ;
+  outline:none;
+  background: #111;
+  color:#fff;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+
+}
+.learnmore2:hover{
+  background: linear-gradient(90deg,#03a9f4,#f441a5,#f441a5,#ffeb3b,#03a9f4);
+}
+#h2{
+  position:relative;
+  bottom: 20px;
+}
+
+/*************background2*************************/
+.background2{
+
+ background-image: url("https://images.unsplash.com/photo-1579546929662-711aa81148cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80");
+  
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+  margin-top:-70px;
+  width:100%;
+
+
+}
+#welcoming{
+  
+  color:white;
+  font-size: 80px;
+  text-align: center;
+  padding-top: 20px;
+  font-family: 'Luckiest Guy', cursive;
+font-family: 'Pacifico', cursive;
+  
+}
+#para{
+font-size: 40px;
+color: black;
+margin-left: 60px;
+padding-top:40px;
+font-family: 'Pacifico', cursive;
+
+}
+.flex-container{
+  display: flex;
+  flex-wrap:wrap;
+  position: relative;
+  bottom:200px;
+}
+
+.flex-item{
+  width: 300px;
+  height:400px;
+  border: 10px solid black;
+  text-align: center;
+  font-size: 2em;
+  color:white;
+  font-weight: bold;
+  margin-top: 270px;
+
+}
+
+#flex-item-1{
+  margin-left:180px;
+  margin-right: 30px;
+  background-image: url("https://img.freepik.com/free-vector/yellow-background-abstract-gradient-studio-room_28629-428.jpg?size=626&ext=jpg");
+}
+#flex-item-1 img{
+  
+  width: 100px;
+  position: relative;
+  left:90px;
+}
+#flex-item-2{
+  margin-right: 40px;
+  background-image: url("https://img.freepik.com/free-vector/yellow-background-abstract-gradient-studio-room_28629-428.jpg?size=626&ext=jpg")
+}
+#flex-item-2 img{
+  width:100px;
+  position: relative;
+  left:90px;
+}
+
+#flex-item-3{
+  margin-right: 40px;
+  background-image: url("https://img.freepik.com/free-vector/yellow-background-abstract-gradient-studio-room_28629-428.jpg?size=626&ext=jpg")
+}
+#flex-item-3 img{
+  width:100px;
+  position: relative;
+  left:90px;
+}
+.learnmore11{
+  height:60px;
+  width:200px;
+  margin:2 35px;
+  border-radius: 50px;
+  border: none ;
+  outline:none;
+  background: #111;
+  color:#fff;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  position: relative;
+  top: 70px;
+}
+.learnmore11:hover{
+  background: linear-gradient(90deg,#03a9f4,#f441a5,#f441a5,#ffeb3b,#03a9f4);
+}
+.learnmore12{
+  height:60px;
+width:200px;
+margin:2 35px;
+border-radius: 50px;
+border: none ;
+outline:none;
+background: #111;
+color:#fff;
+font-size: 20px;
+letter-spacing: 2px;
+text-transform: uppercase;
+cursor: pointer;
+position: relative;
+top: 100px;
+}
+.learnmore12:hover{
+  background: linear-gradient(90deg,#03a9f4,#f441a5,#f441a5,#ffeb3b,#03a9f4);
+}
+
+.learnmore13{
+  height:60px;
+width:200px;
+margin:2 35px;
+border-radius: 50px;
+border: none ;
+outline:none;
+background: #111;
+color:#fff;
+font-size: 20px;
+letter-spacing: 2px;
+text-transform: uppercase;
+cursor: pointer;
+position: relative;
+  top: 70px;
+}
+.learnmore13:hover{
+  background: linear-gradient(90deg,#03a9f4,#f441a5,#f441a5,#ffeb3b,#03a9f4);
+}
+
+
+#notification{font-family: 'Pacifico', cursive;
+margin-top: 130px;
+color: black;}
+#message{font-family: 'Pacifico', cursive;
+  margin-top: 130px;
+  color: black;
+}
+#item{font-family: 'Pacifico', cursive;
+  margin-top: 130px;
+color: black;}
+ 
+
+
+
+
+
+
+/*****************background3******************************/
+.background3{
+
+  background-image: url("https://clarkwritesblog.files.wordpress.com/2017/04/color-gradient-background-wallpaper-2.jpg");
+  height: 100%;
+  background-repeat:no-repeat;
+  background-size: cover;
+  margin-top: -200px;
+  width:100%;
+
+
+}
+#para{
+  color:white;
+}
+
+.flex-container2{
+  display:flex;
+  flex-wrap:nowrap;
+}
+#projects{
+  text-align: center;
+  font-size:90px;
+  font-family: 'Luckiest Guy', cursive;
+font-family: 'Pacifico', cursive;
+color: black;
+}
+
+.flex-item2{
+  width: 25%;
+  height:600px;
+  background-color: lightskyblue;
+  border: 2px solid darkblue;
+  text-align: center;
+  font-size: 2em;
+  color:white;
+  font-weight: bold;
+  display: inline;
+  position: relative;
+  top: 60px;
+
+  
+}
+#flex-item-11{
+  background-image: url("https://cms-assets.tutsplus.com/cdn-cgi/image/width=850/uploads/users/2660/posts/35125/image/Sport-Magazine-Content-Page.jpg");
+}
+#flex-item-22{
+  background-image: url("https://cdn.vox-cdn.com/thumbor/buso-kKMLnTNZduj8T9u05nmtSg=/0x0:2040x1360/1400x933/filters:focal(857x517:1183x843):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/68460384/akrales_190913_3628_0277.0.jpg");
+  background-size: cover;
+}
+#flex-item-33{
+  background-image: url("https://www.anu.edu.au/files/guidance/Report%20writing%20-%20smaller_0.jpg");
+  background-size: cover;
+}#flex-item-34{
+  background-image: url("https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE2n6Rw?ver=4aa9&q=90&m=6&h=720&w=1280&b=%23FFFFFFFF&f=jpg&o=f&aim=true");
+  background-size: cover;
+}
+
+
+
+
+.flex-container3{
+  display:flex;
+  flex-wrap:nowrap
+}
+
+.flex-item3{
+  width: 25%;
+  height:500px;
+  background-color: lightskyblue;
+  border: 2px solid darkblue;
+  text-align: center;
+  font-size: 2em;
+  color:white;
+  font-weight: bold;
+  display: inline;
+  position: relative;
+  top: 60px;
+
+
+  
+}
+#flex-item-111{
+  background-image:url("https://t4.ftcdn.net/jpg/01/97/92/77/360_F_197927767_MISwwnukYrfEH7BoyWazNXLS2p32Plcb.jpg");
+  
+
+  
+}
+#flex-item-112{
+ background-image: url("https://t4.ftcdn.net/jpg/03/03/52/05/360_F_303520596_RPlRH6ZXN0vrUwhiAuerT4puFjqOlFq3.jpg");
+ 
+}
+#flex-item-113{
+  background-image: url("https://styledme.com/wp-content/uploads/2020/09/solid-color-background-virtual-backgrounds-plain-for-zoom-meetings.jpg");
+  
+}#flex-item-114{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrlJYQkeaOSGDLQSL6knOarvsJYNO39PZekw&usqp=CAU");
+ 
+}
+
+#project{
+  text-align: center;
+  padding:60px;
+  padding-top: 20px;
+  color:black;
+  font-size: 20px;
+  font-family: 'Pacifico', cursive;
+}
+
+.launch{
+  position: relative;
+  bottom: 40px;
+  background-color:mediumvioletred;
+  height: 90px;
+}
+
+
+/***********************background4*******************************/
+
+.background4
+{
+  background-image: url("https://images.unsplash.com/photo-1558481795-7f0a7c906f5e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHVycGxlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+  background-size: 100% 100%;
+  height: 120%;
+  background-repeat:no-repeat;
+  margin-top: 60px;
+  width:100%;
+ 
+  
+}
+#priceheadings{
+
+font-size: 100px;
+color:black;
+text-align: center;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Pacifico', cursive;
+}
+#projectname{
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Pacifico', cursive;
+color: black;
+font-size: 44px;
+}
+
+.flex-containers{
+  display: flex;
+  flex-wrap:nowrap;
+}
+
+.flex-items{
+  width: 400px;
+  height:450px;
+  background-color: lightskyblue;
+  border: 2px solid darkblue;
+  text-align: center;
+  font-size: 2em;
+  color:white;
+  font-weight: bold;
+  margin-top: 50px;;
+ 
+  
+
+}
+
+#flex-item-one{
+ 
+  margin-left: 25px;
+}
+.flex-item-three{
+  margin-right: 200px;
+}
+#plans{
+  color:black;
+  padding-left: 40px;
+  font-family: 'Luckiest Guy', cursive;
+  font-family: 'Pacifico', cursive;
+}
+#sub{
+  color:grey;
+}
+#plandata{
+  color:black;
+  font-family: 'Luckiest Guy', cursive;
+  
+}
+
+.launch{
+  height:60px;
+width:200px;
+margin:2 35px;
+border-radius: 50px;
+border: none ;
+outline:none;
+background: #111;
+color:#fff;
+font-size: 20px;
+letter-spacing: 2px;
+text-transform: uppercase;
+cursor: pointer;
+position: relative;
+  top: 30px;
+}
+.launch:hover{
+  background: linear-gradient(90deg,#03a9f4,#f441a5,#f441a5,#ffeb3b,#03a9f4);
+}
+
+.buy{
+  height:60px;
+width:200px;
+margin:2 35px;
+border-radius: 50px;
+border: none ;
+outline:none;
+background: #111;
+color:#fff;
+font-size: 20px;
+letter-spacing: 2px;
+text-transform: uppercase;
+cursor: pointer;
+position: relative;
+  top: 30px;
+
+}
+.buy:hover{
+  background: linear-gradient(90deg,#03a9f4,#f441a5,#f441a5,#ffeb3b,#03a9f4);
+}
+
+
+
+.background5{
+  width:100%;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5OduVzHnXu4aJjauilBiv9ydMyrpvDazTsp88vBgknzMKatxLP9RMJWqIL7VUcVAqG2M&usqp=CAU");
+  background-size: 100% 100%;
+  height: 120%;
+  background-repeat:no-repeat;
+  margin-top: 60px;
+  width:100%;
+  
+}
+
+
+
+video{
+  float: left;
+  padding: 5px;
+  background-image: url("https://www.ncronline.org/sites/default/files/styles/article_full_width/public/island%20tree%20by%20Dave%20Hoefler%20c.jpeg?itok=nL4qu7SR");
+  position: relative;
+  left:5%;
+  top: 30px;
+
+}
+.carousel-indicators .active{
+background-color: #3255e3;
+}
+
+#videoo{
+  color: black;
+  text-align: center;
+  font-family: 'Luckiest Guy', cursive;
+  font-family: 'Pacifico', cursive;
+  font-size: 90px;
+ 
+}
+
+
+
+/* background6 */
+
+.backgroundsix{
+  background-image: url("https://images.wallpapersden.com/image/download/gradient-rainbow-5k_a2psZmiUmZqaraWkpJRmbmdlrWZlbWU.jpg");
+  background-size:cover;
+  height:130%;
+  margin-top: 80px;
+  width:100%;
+  
+}
+
+.image-container{
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.image-item{
+  width: 300px;
+  height:300px;
+  background-color: lightskyblue;
+  border: 2px solid darkblue;
+  text-align: center;
+  font-size: 2em;
+  color:white;
+  font-weight: bold;
+  position: relative;
+  top:100px;
+  left:8%;
+
+}
+
+#image-item-1{
+  
+  background-image: url("aurthor1.jpg");
+  background-size: cover;
+  border-radius: 500px;
+  position: relative;
+  margin:40px;
+  
+}
+#image-item-2{
+ 
+  background-image: url("https://vooth.co/wp-content/uploads/2019/09/ryb1-blog-big-image.jpg");
+  background-size: cover;
+  border-radius: 500px;
+  position: relative;
+  margin:40px;
+  
+}
+#image-item-3{
+  
+  background-image: url("https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWVufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+  background-size: cover;
+  border-radius: 500px;
+  position: relative;
+  margin:40px;
+  
+}
+
+
+
+
+
+
+
+.image-container2{
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.image-item2{
+  width: 300px;
+  height:300px;
+  background-color: lightskyblue;
+  border: 2px solid darkblue;
+  text-align: center;
+  font-size: 2em;
+  color:white;
+  font-weight: bold;
+  position: relative;
+  top:100px;
+  left:8%;
+
+}
+
+#image-item-4{
+  
+  background-image: url("https://media.wired.com/photos/5dd3081844aad10009406a30/1:1/w_2400,c_limit/Biz-Sundar-h_20.93146994.jpg");
+  background-size: cover;
+  border-radius: 500px;
+  position: relative;
+  margin:40px;
+  
+}
+#image-item-5{
+  
+  background-image: url("http://www.goalcast.com/wp-content/uploads/2018/08/shutterstock_663263149.jpg");
+  background-size: cover;
+  border-radius: 500px;
+  position: relative;
+  margin:40px;
+  
+}
+#image-item-6{
+ 
+  background-image: url("https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/01/19/18/web-success-business-RF-istock.jpg?width=982&height=726&auto=webp&quality=75");
+  background-size: cover;
+  border-radius: 500px;
+  position: relative;
+  margin:40px;
+  
+}
+
+#teams{
+  color:black;
+  font-size: 100px;
+  text-align: center;
+  font-family: 'Luckiest Guy', cursive;
+  font-family: 'Pacifico', cursive;
+
+}
+
+
+/*******backgroundseven*********/
+
+.backgroundseven{
+
+  background-image: url("https://coolbackgrounds.io/images/backgrounds/index/disco-dba865f1.png");
+  background-size:cover;
+  height:100%;
+  margin-top:0px;
+  width:100%;
+
+}
+
+
+img{
+  float: left;
+  padding: 5px;
+}
+.carousel-indicators .active{
+background-color: #3255e3;
+}
+
+#life{
+  color: black;
+  font-family: 'Fugaz One', cursive;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Pacifico', cursive;
+  font-size: 70px;
+  text-align: center;
+  padding-top: 20px;
+ 
+ 
+  
+}
+
+/***** background8********/
+.background8{
+  background-image: url("https://st4.depositphotos.com/7656456/i/600/depositphotos_268661766-stock-photo-abstract-painting-art-for-sale.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40%;
+  width:100%;
+  margin-top: -20px;
+}
+
+#newsletter{
+  color: black;
+  font-size: 60px;
+  text-align: center;
+  padding-top: 60px;
+  font-family: 'Fugaz One', cursive;
+  font-family: 'Luckiest Guy', cursive;
+  font-family: 'Pacifico', cursive;
+}
+
+.box{
+  display: flex;
+  padding-top: 20px;
+  padding-left: 401px;
+  height: 100vh;
+  width:100%;
+
+}
+
+.form-box{
+  padding:10px;
+  border-radius: 5px;
+  background:chartreuse;
+  box-shadow: 10px 10px 15px white, -10px -10px 15px whitesmoke;
+}
+
+.form-box input{
+  font-size: 18px;
+  color:black;
+  padding:15px 10px;
+  background:blanchedalmond;
+
+  
+}
+
+.form-box button{
+  color:whitesmoke;
+  padding:15px 20px;
+  font-size:20px;
+  border-radius:5px;
+  background:red;
+}
+.form-box :hover{
+  background:blue;
+}
+
+
+
+/*********** backgroundnine***********/
+
+.backgroundnine{
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/608/371/713/4k-colorful-blur-vivid-wallpaper-preview.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 120%;
+  width:100%;
+  margin-top: -30px;
+
+}
+
+#blogs{
+
+  font-size: 100px;
+  color:black;
+  text-align: center;
+  font-family: 'Fugaz One', cursive;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Pacifico', cursive;
+  }
+  
+  .blogs-containers{
+    display: flex;
+    flex-wrap:nowrap;
+  }
+  
+  .blogs-items{
+    width: 281px;
+    height:601px;
+    background-color: lightskyblue;
+    border: 2px solid darkblue;
+    text-align: center;
+    font-size: 2em;
+    color:white;
+    font-weight: bold;
+    position: relative;
+    top:30px;
+    
+   
+    
+  
+  }
+  
+  #blogs-item-one{
+   
+    margin-left:120px;
+    margin-right: 60px;
+    background-image: url("https://t4.ftcdn.net/jpg/01/97/92/77/360_F_197927767_MISwwnukYrfEH7BoyWazNXLS2p32Plcb.jpg");
+
+  
+  }
+  #blogs-item-two
+  {
+    margin-right: 60px;
+    background-image: url("https://t4.ftcdn.net/jpg/03/03/52/05/360_F_303520596_RPlRH6ZXN0vrUwhiAuerT4puFjqOlFq3.jpg");
+  }
+  
+
+  #blogs-item-three{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrlJYQkeaOSGDLQSL6knOarvsJYNO39PZekw&usqp=CAU");
+  }
+  
+  #visit{
+    color:black;
+    padding-left: 40px;
+    font-family: 'Luckiest Guy', cursive;
+font-family: 'Pacifico', cursive;
+  }
+  #date{
+    color:grey;
+  }
+  #visitdata{
+    color:black;
+    font-family: 'Luckiest Guy', cursive;
+  }
+  
+  .readmore{
+    height:60px;
+  width:200px;
+  margin:2 35px;
+  border-radius: 50px;
+  border: none ;
+  outline:none;
+  background: #111;
+  color:#fff;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  position: relative;
+    top: 30px;
+  
+  }
+  .readmore:hover{
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#f441a5,#ffeb3b,#03a9f4);
+  }
+  .readmore1{
+    height:60px;
+  width:200px;
+  margin:2 35px;
+  border-radius: 50px;
+  border: none ;
+  outline:none;
+  background: #111;
+  color:#fff;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  position: relative;
+  top: 190px;
+  
+  }
+  .readmore1:hover{
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#f441a5,#ffeb3b,#03a9f4);
+  }
+
+  /******background10*********/
+  .background10{
+
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuSy1IbOdSAoriiQJ5AJdggTWH_gbBjqlDTJ_IhC0nGlcxzRvQUHcgmZ2YgLXIEBnxwoo&usqp=CAU");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width:100%;
+
+  }
+  .map-form{
+    display: flex;
+    flex-wrap:nowrap;
+  }
+  
+  .map-item{
+    border: 2px solid darkblue;
+    text-align: center;
+    font-size: 2em;
+    color:white;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-left: 40px;
+
+  
+  }
+  
+  #map{
+    position: relative;
+    left:10px;
+    width:50%;
+   
+  }
+  #formsend{
+    position: relative;
+    left: 20px;
+    background-color: yellow;
+  }
+
+  #formdetails{
+    text-align: left;
+    padding-left: 20px;
+    color: black;
+    font-family: 'Gochi Hand', cursive;
+  }
+  #formdetailscontact{
+    font-family: 'Pacifico', cursive;
+    color: black;
+  }
+  #inputdataform{
+    font-family: 'Pacifico', cursive;
+    color: black;
+    text-align: center;
+    width:90%;
+    
+  }
+  
+
+  .send{
+    height:60px;
+  width:200px;
+  margin:2 35px;
+  border-radius: 50px;
+  border: none ;
+  outline:none;
+  background: #111;
+  color:#fff;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  position: relative;
+  top: 20px;
+  
+  }
+  .send:hover{
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#f441a5,#ffeb3b,#03a9f4);
+  }
+  
+  #messagebox{
+    height:200px;
+    text-align: center;
+    width:90%;
+    font-family: 'Pacifico', cursive;
+    color: black;
+  }
+
+
+
+  .footer{
+    display: flex;
+    flex-wrap:wrap;
+  }
+  
+  .footeritem{
+    width: 33.33%;
+    height:200px;
+    background-color:black;
+    border: 2px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: blanchedalmond;
+   
+}
+
+#line1{
+  padding-left:30px;
+  padding-right:30px;
+  padding-top:10px;
+}
+#line2{
+  padding-left:30px;
+  padding-right:30px;
+  padding-top:10px;
+}
+#contactlink{
+  color: blanchedalmond;
+}
+
+#flexheadings{
+  font-family: 'Anton', sans-serif;
+}
+
+#addressdata{
+  font-family: 'Gochi Hand', cursive;
+}
+#contactlink{
+   font-family: 'Gochi Hand', cursive;
+}
+  
+ 
+  
+
+
+
+  
+
+ 
